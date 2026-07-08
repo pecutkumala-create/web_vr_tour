@@ -1,6 +1,6 @@
 {
-  "buildCommand": null,
-  "outputDirectory": "BuildOutput",
+  "buildCommand": "vite build",
+  "outputDirectory": "dist",
   "headers": [
     {
       "source": "/(.*)",

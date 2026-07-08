@@ -4,7 +4,7 @@ import React, { useEffect } from "react";
 const UnityLoader = ({ onIframeLoad }) => {
   useEffect(() => {
     const iframe = document.createElement("iframe");
-    iframe.src = "BuildOutput/index.html"; // Replace with the actual path to your HTML file
+   iframe.src = "/BuildOutput/index.html";
     iframe.style.width = "960px";
     iframe.style.height = "660px";
     iframe.style.border = "none";
