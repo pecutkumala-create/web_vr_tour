@@ -10,28 +10,21 @@
       ]
     },
     {
-      "source": "/(.*).wasm.gz",
+      "source": "/BuildOutput/Build/BuildOutput.wasm.unityweb",
       "headers": [
         { "key": "Content-Encoding", "value": "gzip" },
         { "key": "Content-Type", "value": "application/wasm" }
       ]
     },
     {
-      "source": "/(.*).js.gz",
+      "source": "/BuildOutput/Build/BuildOutput.framework.js.unityweb",
       "headers": [
         { "key": "Content-Encoding", "value": "gzip" },
         { "key": "Content-Type", "value": "application/javascript" }
       ]
     },
     {
-      "source": "/(.*).data.gz",
-      "headers": [
-        { "key": "Content-Encoding", "value": "gzip" },
-        { "key": "Content-Type", "value": "application/octet-stream" }
-      ]
-    },
-    {
-      "source": "/(.*).symbols.json.gz",
+      "source": "/BuildOutput/Build/BuildOutput.data.unityweb",
       "headers": [
         { "key": "Content-Encoding", "value": "gzip" },
         { "key": "Content-Type", "value": "application/octet-stream" }
